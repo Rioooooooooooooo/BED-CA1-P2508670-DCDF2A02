@@ -9,25 +9,38 @@ Borderland Games is a survival game inspired by the show Alice in Borderland, wh
 ## Setup & Run Instructions
 
 ### Steps
+
 1. Clone the repository
-git clone <your-repo-url>
+```bash
+git clone 
 cd BED-CA1-P2508670-DCDF2A02
+```
 
 2. Install dependencies
+```bash
 npm install
+```
 
 3. Generate migration files
+```bash
 npm run db:generate
+```
 
 4. Run migrations to create tables
+```bash
 npm run db:migrate
+```
 
 5. Seed the database
+```bash
 npm run db:seed
+```
 
 6. Start the server
+```bash
 npm run dev
----
+```
+- Server runs at `http://localhost:3000`
 
 ## Endpoints
 
